@@ -1,0 +1,137 @@
+{
+  "issues": [
+    {
+      "descreption": "On clicking Delete the application Crashes",
+      "severity": "Critical",
+      "status": "In Progress",
+      "id": "1",
+      "createddate": "2022-03-24",
+      "resolveddate": "2022-04-11",
+      "count": 6
+    },
+    {
+      "id": "2",
+      "descreption": "The heading add is wrongly displayed as edit",
+      "severity": "Minor",
+      "status": "Closed",
+      "createddate": "2022-03-27",
+      "resolveddate": "2022-04-21",
+      "count": 10
+    },
+    {
+      "id": "3",
+      "descreption": "The Payment fuctionality is missing",
+      "severity": "Major",
+      "status": "In Progress",
+      "createddate": "2022-03-27",
+      "resolveddate": "2022-04-21",
+      "count": 5
+    },
+    {
+      "descreption": "Application is working now",
+      "severity": "Critical",
+      "status": "Closed",
+      "id": "_iDAXC7MJf",
+      "createddate": "2022-03-27",
+      "resolveddate": "2022-04-21",
+      "count": 8
+    },
+    {
+      "descreption": "Submit button working",
+      "severity": "Critical",
+      "status": "Closed",
+      "id": "YW1YWqf41-",
+      "createddate": "2021-03-27",
+      "resolveddate": "2021-03-31",
+      "count": 10
+    },
+    {
+      "descreption": "Application Stopped Working",
+      "severity": "Critical",
+      "status": "Open",
+      "id": "gXHCMwb3V7",
+      "createddate": "2022-01-07",
+      "resolveddate": "2022-02-15",
+      "count": 3
+    },
+    {
+      "descreption": "On Clicking add application crashes",
+      "severity": "Critical",
+      "status": "In Progress",
+      "id": "rWvHRqRHeA",
+      "createddate": "2022-03-27",
+      "resolveddate": "2022-04-21",
+      "count": 9
+    },
+    {
+      "descreption": "Submit button not working",
+      "severity": "Critical",
+      "status": "In Progress",
+      "id": "-Ln1kErJot",
+      "createddate": "2022-04-07",
+      "resolveddate": "2022-04-16",
+      "count": 6
+    },
+    {
+      "descreption": "Application crashes",
+      "severity": "Critical",
+      "status": "Open",
+      "id": "_LrB-j4EUk",
+      "createddate": "2022-04-07",
+      "resolveddate": "2022-04-23",
+      "count": 6
+    },
+    {
+      "descreption": "About page crashes",
+      "severity": "Critical",
+      "status": "Open",
+      "id": "GR0UjO3Nuq",
+      "createddate": "2022-04-11",
+      "resolveddate": "2022-04-14",
+      "count": 2
+    },
+    {
+      "descreption": "App working fine",
+      "severity": "Critical",
+      "status": "Closed",
+      "id": "BaXss_QR3u",
+      "createddate": "2022-04-24",
+      "resolveddate": "2022-04-25",
+      "count": 4
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "email": "khushalbhatt17@gmail.com",
+      "password": "khush123"
+    },
+    {
+      "id": "2",
+      "email": "khushal@gmail.com",
+      "password": "khush123"
+    },
+    {
+      "id": "3",
+      "email": "harmanjit17@gmail.com",
+      "password": "harry"
+    },
+    {
+      "id": "4",
+      "email": "damanpal@gmail.com",
+      "password": "13daman"
+    },
+    {
+      "email": "khushal17@gmail.com",
+      "password": "12345678",
+      "id": "qSvTid7h45"
+    }
+  ],
+  "login": [
+    {
+      "islogged": "true",
+      "message": "Log off",
+      "id": "1"
+    }
+  ]
+}
