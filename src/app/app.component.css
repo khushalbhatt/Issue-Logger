@@ -1,0 +1,13 @@
+h1{
+   color: darkblue;
+}
+h2{
+    color: darkgoldenrod;
+}
+.selected{
+    visibility: hidden;
+}
+a.active{
+    color: rgb(255, 5, 5);
+    font-weight: bold;
+}
