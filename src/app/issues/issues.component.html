@@ -1,0 +1,59 @@
+<div class="container">
+  <div id="log" *ngIf="Logged===true">
+    <h4>Logged IN</h4>
+    <button type="submit" class="btn btn-danger" (click)="logoff()">Log OFF</button>
+  </div>
+<h2 style="text-align: center;">Issues List
+<button class="btn btn-info" type="submit" (click)=" customize=! customize" for="customize" style="margin-left:1rem">Customize View</button>
+</h2>
+</div>
+<div *ngIf="customize===true" class="container">
+  <ul>
+    <li>
+      <label for="">severity  :</label>
+      <button class="btn " type="submit" style="height: fit-content;" (click)=" ngsev=! ngsev">{{ngsev}}</button>
+    </li>
+    <li>
+      <label for="">status :</label>
+      <button class="btn " type="submit" (click)=" ngsta=! ngsta">{{ngsta}}</button>
+    </li>
+    <li>
+      <label for="">createddate  :</label>
+      <button class="btn " type="submit" (click)=" ngcr=! ngcr">{{ngcr}}</button>
+    </li>
+    <li>
+      <label for="">resolveddate  :</label>
+      <button class="btn " type="submit" (click)=" ngrd=! ngrd">{{ngrd}}</button>
+    </li>
+  </ul>
+</div>
+
+<br>
+<div class="container">
+  <h3>Search Filter
+    <input type="search" [(ngModel)]="n">
+  </h3>   
+  <div class="row">
+    <div class="card col-lg-4" *ngFor="let obj of objects | issue:n" style="margin-top: 1rem;">
+      <div class="card-header">
+        <h4>
+          <a [routerLink]="['/issue',obj.id,obj.descreption,obj.severity,obj.status,obj.createddate,obj.resolveddate]" [class.lastViewed]=" lastViewedIssue == obj.id">
+            {{obj.descreption}}
+          </a>
+        </h4>
+      </div>
+      <div class="card-body">
+        <p *ngIf="ngsev===true" >Severity- {{obj.severity}}</p>
+        <p *ngIf="ngsta===true">Status- {{obj.status}}</p>
+        <p *ngIf="ngcr===true">Created Date((yyyy/mm/dd))- {{obj.createddate}}</p>
+        <p *ngIf="ngrd===true">Resolved Date((yyyy/mm/dd))- {{obj.resolveddate}}</p>
+      </div>
+      <div class="card-footer">
+        <button class="btn btn-info" type="submit" (click)="view(obj)"> View Details</button>
+        <button class="btn btn-info" type="submit" style="margin: 1rem;" (click)="Edit(obj)"> Edit</button>
+        <button type="submit" class="btn btn-danger" (click)="Delete(obj.id)">Delete</button>
+      </div>
+    </div>
+  </div>
+</div>
+

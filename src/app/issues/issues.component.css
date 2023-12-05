@@ -1,0 +1,22 @@
+th{
+    color: rgb(73, 158, 52);
+}
+a,td{
+    color: rgb(52, 180, 163);
+}
+a.lastViewed{
+    color: rgb(201, 61, 19);
+}
+table {
+    width: 50%;
+}
+
+.table-header {
+    font-size: 14px; 
+    font-weight: bold; 
+}
+#log{
+    color:Red;
+    text-align:right;
+}
+.gray { background-color: #f9f9f9 }
